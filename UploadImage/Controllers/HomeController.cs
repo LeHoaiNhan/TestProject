@@ -2,6 +2,8 @@
 using System.Diagnostics;
 using System.Net.Http.Headers;
 using UploadImage.Models;
+using static System.Net.Mime.MediaTypeNames;
+using Image = SixLabors.ImageSharp.Image;
 
 namespace UploadImage.Controllers
 {
@@ -10,8 +12,9 @@ namespace UploadImage.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IHostEnvironment he;         
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IHostEnvironment e)
         {
+            he = e;
             _logger = logger;
         }
 
@@ -19,16 +22,49 @@ namespace UploadImage.Controllers
         {
             return View();
         }
-        public IActionResult UploadIMG(string fullName,IFormFile img)
-        {                        
-            ViewBag.fullName = fullName;
-            if(img != null)
+        public IActionResult UploadIMG(string fullName,IFormFile file)
+        {
+            string fileName=string.Empty;
+            string path = string.Empty;
+            if (file.Length >0)
             {
-                 var fileName=Path.GetFileName(img.FileName);
-            }
-
-            return View();
+                string directoryPath = @"wwwroot/Images/avatar";
+                // 2.Khai báo một thể hiện của lớp DirectoryInfo
+                DirectoryInfo directory = new DirectoryInfo(directoryPath);
+                // Kiểm tra thư mục chưa tồn tại mới sử dụng phương thức tạo
+                if (!directory.Exists)
+                {     
+                    // 3.Sử dụng phương thức Create để tạo thư mục.
+                        directory.Create();
+                }
+                fileName =Guid.NewGuid()+Path.GetExtension(file.FileName);
+                    path = Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/Images/avatar"));
+                    string fullPath=Path.Combine(path,file.FileName);
+                    using (var image = Image.Load(file.OpenReadStream()))
+                    {
+                        string newSize = ResizeImage(image, 100, 100);
+                        string[] aSize = newSize.Split(',');
+                        image.Mutate(h => h.Resize(Convert.ToInt32(aSize[1]), Convert.ToInt32(aSize[0])));   
+                        image.Save(fullPath);
+                        ViewData["fullName"] = file.FileName.ToString();
+                        ViewData["fileLocation"] = "/images/avatar/" + Path.GetFileName(file.FileName);  
+                    }   
+                }          
+                return View();
         }    
+        public string ResizeImage(Image img,int maxWidth,int maxHeight)
+        {
+            if (img.Width > maxWidth || img.Height > maxHeight)
+            {
+                double widthRatio = (double)img.Width / (double)maxWidth;
+                double heightRatio = (double)img.Height / (double)maxHeight;
+                double raito = Math.Max(widthRatio, heightRatio);
+                int newWidth = (int)(img.Width / raito);
+                int newHeight = (int)(img.Height / raito);
+                return newHeight.ToString() + "," + newWidth.ToString();
+            }
+            else { return img.Height.ToString() + "," + img.Width.ToString(); }
+        }
         public IActionResult Privacy()
         {
             return View();

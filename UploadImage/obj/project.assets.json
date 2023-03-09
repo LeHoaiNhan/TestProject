@@ -1,11 +1,47 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "SixLabors.ImageSharp/3.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/SixLabors.ImageSharp.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "build/SixLabors.ImageSharp.props": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SixLabors.ImageSharp/3.0.0": {
+      "sha512": "ETEHRfUAn/rExqdmj2GDayPkW9zr3BruO9S4WF9ULpWmdydewIjoJqinbQc+o4DsM3X0wGZPyJLlj6N3uxV/aw==",
+      "type": "package",
+      "path": "sixlabors.imagesharp/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "build/SixLabors.ImageSharp.props",
+        "lib/net6.0/SixLabors.ImageSharp.dll",
+        "lib/net6.0/SixLabors.ImageSharp.xml",
+        "sixlabors.imagesharp.128.png",
+        "sixlabors.imagesharp.3.0.0.nupkg.sha512",
+        "sixlabors.imagesharp.nuspec"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "SixLabors.ImageSharp >= 3.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Nhanlh6\\.nuget\\packages\\": {}
@@ -13,11 +49,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\UploadImage.csproj",
+      "projectUniqueName": "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\UploadImage.csproj",
       "projectName": "UploadImage",
-      "projectPath": "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\UploadImage.csproj",
+      "projectPath": "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\UploadImage.csproj",
       "packagesPath": "C:\\Users\\Nhanlh6\\.nuget\\packages\\",
-      "outputPath": "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\obj\\",
+      "outputPath": "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Nhanlh6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +81,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "SixLabors.ImageSharp": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

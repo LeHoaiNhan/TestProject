@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = UploadImage
 build_property.RootNamespace = UploadImage
-build_property.ProjectDir = O:\Github\LeHoaiNhan\UploadImage\UploadImage\
+build_property.ProjectDir = O:\Github\LeHoaiNhan\TestProject\UploadImage\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = O:\Github\LeHoaiNhan\UploadImage\UploadImage
+build_property.MSBuildProjectDirectory = O:\Github\LeHoaiNhan\TestProject\UploadImage
 build_property._RazorSourceGeneratorDebug = 
 
-[O:/Github/LeHoaiNhan/UploadImage/UploadImage/Views/Home/Index.cshtml]
+[O:/Github/LeHoaiNhan/TestProject/UploadImage/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Github/LeHoaiNhan/UploadImage/UploadImage/Views/Home/Privacy.cshtml]
+[O:/Github/LeHoaiNhan/TestProject/UploadImage/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Github/LeHoaiNhan/UploadImage/UploadImage/Views/Home/UploadIMG.cshtml]
+[O:/Github/LeHoaiNhan/TestProject/UploadImage/Views/Home/UploadIMG.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxVcGxvYWRJTUcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Github/LeHoaiNhan/UploadImage/UploadImage/Views/Shared/Error.cshtml]
+[O:/Github/LeHoaiNhan/TestProject/UploadImage/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Github/LeHoaiNhan/UploadImage/UploadImage/Views/Shared/_ValidationScriptsPartial.cshtml]
+[O:/Github/LeHoaiNhan/TestProject/UploadImage/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Github/LeHoaiNhan/UploadImage/UploadImage/Views/_ViewImports.cshtml]
+[O:/Github/LeHoaiNhan/TestProject/UploadImage/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Github/LeHoaiNhan/UploadImage/UploadImage/Views/_ViewStart.cshtml]
+[O:/Github/LeHoaiNhan/TestProject/UploadImage/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[O:/Github/LeHoaiNhan/UploadImage/UploadImage/Views/Shared/_Layout.cshtml]
+[O:/Github/LeHoaiNhan/TestProject/UploadImage/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jke09g6oxm

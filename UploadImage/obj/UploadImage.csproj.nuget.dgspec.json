@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\UploadImage.csproj": {}
+    "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\UploadImage.csproj": {}
   },
   "projects": {
-    "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\UploadImage.csproj": {
+    "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\UploadImage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\UploadImage.csproj",
+        "projectUniqueName": "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\UploadImage.csproj",
         "projectName": "UploadImage",
-        "projectPath": "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\UploadImage.csproj",
+        "projectPath": "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\UploadImage.csproj",
         "packagesPath": "C:\\Users\\Nhanlh6\\.nuget\\packages\\",
-        "outputPath": "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\obj\\",
+        "outputPath": "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nhanlh6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "SixLabors.ImageSharp": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

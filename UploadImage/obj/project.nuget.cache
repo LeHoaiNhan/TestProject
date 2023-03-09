@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U5LrHw4ZhmuLi3JeF0gTQYcR/I7q/Eo0sLhWwzTzJ0pARfE53i1eoJiZL/QcYilbFWFSQ5GVVXzMRP32pbpL7g==",
+  "dgSpecHash": "EV+MRr1jRIGZLwygmmgxW/Iq/QDDxu7z1e7NDFsif9uuSuzqSLNAOd93pj6Eom0LXFGCSr2MTNI0nA4l2gNYBQ==",
   "success": true,
-  "projectFilePath": "O:\\Github\\LeHoaiNhan\\UploadImage\\UploadImage\\UploadImage.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "O:\\Github\\LeHoaiNhan\\TestProject\\UploadImage\\UploadImage.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\sixlabors.imagesharp\\3.0.0\\sixlabors.imagesharp.3.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
