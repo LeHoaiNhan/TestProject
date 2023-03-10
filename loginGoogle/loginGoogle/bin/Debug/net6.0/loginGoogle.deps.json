@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "loginGoogle/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Google": "6.0.0"
+        },
+        "runtime": {
+          "loginGoogle.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Google/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Google.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "loginGoogle/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Authentication.Google/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TToorF3zDoDSDj639jqD0JkrjQaAfK1vI61Xwrtnf2gToIQQSRAY7A6S4qPYROE6n31sEyWKPlAVoSW1u7Jysw==",
+      "path": "microsoft.aspnetcore.authentication.google/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.google.6.0.0.nupkg.sha512"
+    }
+  }
+}
