@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "O:\\Github\\LeHoaiNhan\\LoginGoogle\\loginGoogle\\loginGoogle.csproj": {}
+    "O:\\Github\\LeHoaiNhan\\TestProject\\loginGoogle\\loginGoogle\\loginGoogle.csproj": {}
   },
   "projects": {
-    "O:\\Github\\LeHoaiNhan\\LoginGoogle\\loginGoogle\\loginGoogle.csproj": {
+    "O:\\Github\\LeHoaiNhan\\TestProject\\loginGoogle\\loginGoogle\\loginGoogle.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "O:\\Github\\LeHoaiNhan\\LoginGoogle\\loginGoogle\\loginGoogle.csproj",
+        "projectUniqueName": "O:\\Github\\LeHoaiNhan\\TestProject\\loginGoogle\\loginGoogle\\loginGoogle.csproj",
         "projectName": "loginGoogle",
-        "projectPath": "O:\\Github\\LeHoaiNhan\\LoginGoogle\\loginGoogle\\loginGoogle.csproj",
+        "projectPath": "O:\\Github\\LeHoaiNhan\\TestProject\\loginGoogle\\loginGoogle\\loginGoogle.csproj",
         "packagesPath": "C:\\Users\\Nhanlh6\\.nuget\\packages\\",
-        "outputPath": "O:\\Github\\LeHoaiNhan\\LoginGoogle\\loginGoogle\\obj\\",
+        "outputPath": "O:\\Github\\LeHoaiNhan\\TestProject\\loginGoogle\\loginGoogle\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nhanlh6\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Authentication.Google": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [

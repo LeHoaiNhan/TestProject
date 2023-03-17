@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "ejBRjuHKABlAq0YIyUeSjJwp14QhIolnuv2dw22ke8RmTX3gUHn0M+cBZCkEb69oI8D0O/Nl3MTHHjAj4h++0g==",
+  "dgSpecHash": "hjBLOYgZE7L+BwdZpmxNYycdtzwY5QckvrpcqigZkrowUQ6ylxgWwZU7HHz0IAeDoin0DRKyOilxy6Hp4B4bNA==",
   "success": true,
-  "projectFilePath": "O:\\Github\\LeHoaiNhan\\LoginGoogle\\loginGoogle\\loginGoogle.csproj",
+  "projectFilePath": "O:\\Github\\LeHoaiNhan\\TestProject\\loginGoogle\\loginGoogle\\loginGoogle.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.0\\microsoft.aspnetcore.authentication.google.6.0.0.nupkg.sha512"
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\6.0.0\\microsoft.aspnetcore.authentication.google.6.0.0.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\Nhanlh6\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-var builder = WebApplication.CreateBuilder(args);   
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddSwaggerGen();
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddAuthentication(options =>
@@ -30,7 +31,7 @@ if (!app.Environment.IsDevelopment())
     // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
-
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
